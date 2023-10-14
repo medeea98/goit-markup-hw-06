@@ -1044,7 +1044,12 @@ button[type="submit"]:focus {
     left: 482px;
 
 }
-
+.close-btn svg{
+    fill: black;
+}
+.close-btn:hover svg {
+    fill: white;
+}
 /*.modal.is-active .modal-content  {
     animation: scaleDown 0.3s ease-in-out;
 }
@@ -1057,7 +1062,7 @@ button[type="submit"]:focus {
         transform: scale(0);
     }
 }*/
-.contact-form h3 {
+.contact-form p {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 700;
