@@ -626,6 +626,7 @@ main {
     flex-direction: row;
     align-items: baseline;
     overflow: hidden;
+    gap: 94px;
 }
 .container-footer a{
     transition: color var(--transition);
@@ -693,7 +694,6 @@ main {
     align-items: flex-start;
     flex-direction: column;
     gap: 15px;
-    margin-left: 94px;
     width: 206px;
     
 }
@@ -730,6 +730,74 @@ ellipse {
 .container-footer-icons ellipse:focus {
     fill: var(--main-blue);
     
+}
+
+
+
+.textfield-subscribe {
+    width: 358px;
+    height: 50px;
+    background: var(--background-grey);
+    border: 1px solid #FFFFFF4D;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding-left: 16px;
+    
+}
+.textfield-subscribe::placeholder {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.48px;
+    color: #FFFFFF4D;
+}
+.textfield-subscribe:focus {
+    transition: border var(--transition);
+    caret-color: white;
+}
+.button-subscribe {
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: none;
+    background: var(--main-blue);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 382px;
+    bottom: 50px;
+    transition: back-ground border color var(--transition);
+}
+.button-subscribe svg {
+    margin-left: 25px;
+}
+
+button[type="submit"]:hover {
+    background-color: #188CE8;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    transition: back-ground var(--transition), color var(--transition), border var(--transition);
+}
+
+button[type="submit"]:focus {
+    background-color: #188CE8;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    transition: back-ground var(--transition), color var(--transition), border var(--transition);
 }
 /* PORTOFOLIO*/
 
@@ -1135,3 +1203,19 @@ ellipse {
     bottom: 40px;
     
   }
+
+    input[type="submit"]:hover {
+    background-color: #188CE8;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    transition: back-ground var(--transition), color var(--transition), border var(--transition);
+}
+
+    input[type="submit"]:focus {
+    background-color: #188CE8;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    transition: back-ground var(--transition), color var(--transition), border var(--transition);
+}
