@@ -1175,6 +1175,7 @@ button[type="submit"]:focus {
   .terms-and-conditions-check:checked + label > svg {
     display: none;
   }
+  
   .submit-form {
     width: 200px;
     height: 50px;
