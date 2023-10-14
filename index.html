@@ -475,19 +475,20 @@
             </div>
           </div>
           <div class="input-container">
-            <label class="form-label" for="e">Email</label>
+            <label class="form-label" for="phone-number">Telephone</label>
             <div class="input-container">
-              <input
+              <input 
                 class="textfield"
-                type="text"
-                name="email"
-                id="email"
-                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                type="tel"
+                name="phone-number"
+                pattern="[0-9]{10}"
+                id="phone-number"
                 required
               />
               <svg>
-                <use href="./images/symbol-defs.svg#icon-email"></use>
+                <use href="./symbol-defs.svg#icon-phone-black"></use>
               </svg>
+              
             </div>
           </div>
           <div class="input-container">
@@ -502,7 +503,7 @@
                 required
               />
               <svg>
-                <use href="./images/symbol-defs.svg#icon-email"></use>
+                <use href="./symbol-defs.svg#icon-email-black"></use>
               </svg>
             </div>
           </div>
@@ -525,11 +526,11 @@
               for="terms-and-conditions-check"
             >
               <svg class="icon-checkbox">
-                <use href="./images/symbol-defs.svg#icon-checkbox"></use>
+                <use href="./symbol-defs.svg#icon-checkbox"></use>
               </svg>
               <span>
                 I agree with the letter and accept the
-                <a href="#">Terms and Conditions</a>
+                <a href="#" id="special-link">Terms and Conditions</a>
               </span>
             </label>
           </div>

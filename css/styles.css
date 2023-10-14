@@ -1030,10 +1030,10 @@ ellipse {
   }
   
   textarea::placeholder {
-    font-family: var(--text-font-family);
+    font-family: inherit;
     font-size: 12px;
     font-weight: 400;
-    line-height: 14px;
+    line-height: 25px;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
   }
@@ -1055,7 +1055,7 @@ ellipse {
   }
   
   .form-label {
-    font-family: var(--text-font-family);
+    font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
@@ -1078,17 +1078,18 @@ ellipse {
     gap: 8px;
   }
   
-  .terms-and-conditions span {
-    font-family: var(--text-font-family);
+  .terms-and-conditions-label span {
+    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--main-grey);
   }
   
-  .terms-and-conditions span a {
-    color: #2196f3;
+  .terms-and-conditions-label #special-link {
+    color: var(--main-blue);
+    text-decoration-line: underline;
   }
   
   .terms-and-conditions-label svg {
