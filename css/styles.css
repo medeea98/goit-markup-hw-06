@@ -1171,15 +1171,18 @@ button[type="submit"]:focus {
     position: absolute;
     top: calc(50% - 7.5px);
     left: 0;
+    cursor: pointer;
   }
   
   .terms-and-conditions-check:not(:checked) {
     visibility: hidden;
   }
   
+  
   .terms-and-conditions-check:checked + label > svg {
     display: none;
   }
+  
   
   .submit-form {
     width: 200px;
